@@ -44,3 +44,13 @@ C:\Desarrollos\REPO\MMS_NEW\MMS_Clases\bin\Debug\System.Xml.Linq.dll
 C:\Desarrollos\REPO\MMS_NEW\MMS_Clases\obj\Debug\MMS_Clases.csprojResolveAssemblyReference.cache
 C:\Desarrollos\REPO\MMS_NEW\MMS_Clases\obj\Debug\MMS_Clases.dll
 C:\Desarrollos\REPO\MMS_NEW\MMS_Clases\obj\Debug\MMS_Clases.pdb
+A:\Desarrollos\REPOSITORIOS\mms_git\MMS_Clases\bin\Debug\MMS_Clases.dll
+A:\Desarrollos\REPOSITORIOS\mms_git\MMS_Clases\bin\Debug\MMS_Clases.pdb
+A:\Desarrollos\REPOSITORIOS\mms_git\MMS_Clases\bin\Debug\Microsoft.CSharp.dll
+A:\Desarrollos\REPOSITORIOS\mms_git\MMS_Clases\bin\Debug\System.dll
+A:\Desarrollos\REPOSITORIOS\mms_git\MMS_Clases\bin\Debug\System.Xml.dll
+A:\Desarrollos\REPOSITORIOS\mms_git\MMS_Clases\bin\Debug\System.Xml.Linq.dll
+A:\Desarrollos\REPOSITORIOS\mms_git\MMS_Clases\obj\Debug\MMS_Clases.csprojResolveAssemblyReference.cache
+A:\Desarrollos\REPOSITORIOS\mms_git\MMS_Clases\obj\Debug\MMS_Clases.csproj.CoreCompileInputs.cache
+A:\Desarrollos\REPOSITORIOS\mms_git\MMS_Clases\obj\Debug\MMS_Clases.dll
+A:\Desarrollos\REPOSITORIOS\mms_git\MMS_Clases\obj\Debug\MMS_Clases.pdb
