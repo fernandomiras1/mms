@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="mmsModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.5" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="cierre_mes">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="uint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Id_Entidad" Type="int" />
+    <Property Name="Mes" Type="varchar" MaxLength="500" />
+    <Property Name="Anio" Type="varchar" MaxLength="500" />
+    <Property Name="Monto" Type="double" />
+    <Property Name="Detalle" Type="varchar" MaxLength="500" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+    <Property Name="Fecha_Proceso" Type="timestamp" Precision="0" />
+  </EntityType>
+  <EntityType Name="combo_categoria">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Id_Entidad" Type="int" />
+    <Property Name="Id_Tipo" Type="int" />
+    <Property Name="Fecha_Proceso" Type="timestamp" Precision="0" />
+    <Property Name="Nombre" Type="varchar" MaxLength="255" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="combo_forma_pago">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="combo_mes">
+    <Key>
+      <PropertyRef Name="idmes" />
+    </Key>
+    <Property Name="idmes" Type="uint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="meses" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="combo_sub_categoria">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Id_Entidad" Type="int" />
+    <Property Name="Id_Categoria" Type="int" />
+    <Property Name="Fecha_Proceso" Type="timestamp" Precision="0" />
+    <Property Name="Nombre" Type="varchar" MaxLength="500" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+    <Property Name="Pagado" Type="bit" />
+  </EntityType>
+  <EntityType Name="combo_tipo">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="egresos_mensuales">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="uint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Id_Entidad" Type="int" />
+    <Property Name="Fecha_Insert" Type="timestamp" Precision="0" />
+    <Property Name="Fecha_Vencimiento" Type="date" />
+    <Property Name="Id_SubCategoria" Type="int" />
+    <Property Name="Detalle" Type="varchar" MaxLength="500" />
+    <Property Name="Precio" Type="double" />
+    <Property Name="Pagado" Type="bit" />
+    <Property Name="Recordatorio" Type="bit" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="entidades">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fecha_Creado" Type="timestamp" Precision="0" Nullable="false" />
+    <Property Name="Entidad" Type="varchar" MaxLength="500" />
+    <Property Name="Entidad_hash" Type="varchar" MaxLength="500" />
+    <Property Name="Clave_Temporal" Type="varchar" MaxLength="500" />
+    <Property Name="Observaciones" Type="varchar" MaxLength="500" />
+    <Property Name="Activo" Type="enum" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ingesos_mensuales">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="uint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Id_Entidad" Type="int" />
+    <Property Name="Fecha_Insert" Type="timestamp" Precision="0" />
+    <Property Name="Fecha_Vencimiento" Type="date" />
+    <Property Name="Id_SubCategoria" Type="int" />
+    <Property Name="Detalle" Type="varchar" MaxLength="500" />
+    <Property Name="Precio" Type="double" />
+    <Property Name="Pagado" Type="bit" />
+    <Property Name="Recordatorio" Type="bit" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ingresos">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="uint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fecha" Type="timestamp" Precision="0" Nullable="false" />
+    <Property Name="Id_Entidad" Type="int" />
+    <Property Name="Id_Tipo" Type="int" />
+    <Property Name="Id_Categoria" Type="int" />
+    <Property Name="Id_SubCategoria" Type="int" />
+    <Property Name="Id_Forma_Pago" Type="int" />
+    <Property Name="Observación" Type="varchar" MaxLength="500" />
+    <Property Name="Precio" Type="double" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="log_conexiones">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fecha_Ingreso" Type="timestamp" Precision="0" Nullable="false" />
+    <Property Name="Entidad" Type="varchar" MaxLength="500" />
+    <Property Name="Email" Type="varchar" MaxLength="500" />
+    <Property Name="Pass" Type="varchar" MaxLength="500" />
+    <Property Name="Ip_Cliente" Type="varchar" MaxLength="50" />
+    <Property Name="Bloqueado" Type="enum" />
+    <Property Name="Version_Actual" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="login">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="uint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Id_Entidad" Type="int" />
+    <Property Name="Entidad" Type="varchar" MaxLength="500" />
+    <Property Name="Usuario" Type="varchar" MaxLength="500" />
+    <Property Name="Pass" Type="varchar" MaxLength="500" />
+    <Property Name="Nombre_Apellido" Type="varchar" MaxLength="500" />
+    <Property Name="Dni" Type="varchar" MaxLength="500" />
+    <Property Name="Cargo" Type="varchar" MaxLength="500" />
+    <Property Name="Fecha_Creacion" Type="timestamp" Precision="0" Nullable="false" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="mensajes">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="uint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Entidad" Type="varchar" MaxLength="5000" />
+    <Property Name="Mensaje" Type="varchar" MaxLength="5000" />
+  </EntityType>
+  <Association Name="egresos_mensuales_ibfk_1">
+    <End Role="combo_sub_categoria" Type="Self.combo_sub_categoria" Multiplicity="0..1" />
+    <End Role="egresos_mensuales" Type="Self.egresos_mensuales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="combo_sub_categoria">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="egresos_mensuales">
+        <PropertyRef Name="Id_SubCategoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="egresos_mensuales_ibfk_2">
+    <End Role="entidades" Type="Self.entidades" Multiplicity="0..1" />
+    <End Role="egresos_mensuales" Type="Self.egresos_mensuales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="entidades">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="egresos_mensuales">
+        <PropertyRef Name="Id_Entidad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_cierre_mes_entidades">
+    <End Role="entidades" Type="Self.entidades" Multiplicity="0..1" />
+    <End Role="cierre_mes" Type="Self.cierre_mes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="entidades">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="cierre_mes">
+        <PropertyRef Name="Id_Entidad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_combo_categoria_combo_tipo">
+    <End Role="combo_tipo" Type="Self.combo_tipo" Multiplicity="0..1" />
+    <End Role="combo_categoria" Type="Self.combo_categoria" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="combo_tipo">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="combo_categoria">
+        <PropertyRef Name="Id_Tipo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_combo_categoria_entidades">
+    <End Role="entidades" Type="Self.entidades" Multiplicity="0..1" />
+    <End Role="combo_categoria" Type="Self.combo_categoria" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="entidades">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="combo_categoria">
+        <PropertyRef Name="Id_Entidad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_combo_sub_categoria_combo_categoria">
+    <End Role="combo_categoria" Type="Self.combo_categoria" Multiplicity="0..1" />
+    <End Role="combo_sub_categoria" Type="Self.combo_sub_categoria" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="combo_categoria">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="combo_sub_categoria">
+        <PropertyRef Name="Id_Categoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_combo_sub_categoria_entidades">
+    <End Role="entidades" Type="Self.entidades" Multiplicity="0..1" />
+    <End Role="combo_sub_categoria" Type="Self.combo_sub_categoria" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="entidades">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="combo_sub_categoria">
+        <PropertyRef Name="Id_Entidad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ingesos_mensuales_combo_sub_categoria">
+    <End Role="combo_sub_categoria" Type="Self.combo_sub_categoria" Multiplicity="0..1" />
+    <End Role="ingesos_mensuales" Type="Self.ingesos_mensuales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="combo_sub_categoria">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ingesos_mensuales">
+        <PropertyRef Name="Id_SubCategoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ingesos_mensuales_entidades">
+    <End Role="entidades" Type="Self.entidades" Multiplicity="0..1" />
+    <End Role="ingesos_mensuales" Type="Self.ingesos_mensuales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="entidades">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ingesos_mensuales">
+        <PropertyRef Name="Id_Entidad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ingresos_combo_categoria">
+    <End Role="combo_categoria" Type="Self.combo_categoria" Multiplicity="0..1" />
+    <End Role="ingresos" Type="Self.ingresos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="combo_categoria">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ingresos">
+        <PropertyRef Name="Id_Categoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ingresos_combo_forma_pago">
+    <End Role="combo_forma_pago" Type="Self.combo_forma_pago" Multiplicity="0..1" />
+    <End Role="ingresos" Type="Self.ingresos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="combo_forma_pago">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ingresos">
+        <PropertyRef Name="Id_Forma_Pago" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ingresos_combo_sub_categoria">
+    <End Role="combo_sub_categoria" Type="Self.combo_sub_categoria" Multiplicity="0..1" />
+    <End Role="ingresos" Type="Self.ingresos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="combo_sub_categoria">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ingresos">
+        <PropertyRef Name="Id_SubCategoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ingresos_combo_tipo">
+    <End Role="combo_tipo" Type="Self.combo_tipo" Multiplicity="0..1" />
+    <End Role="ingresos" Type="Self.ingresos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="combo_tipo">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ingresos">
+        <PropertyRef Name="Id_Tipo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ingresos_entidades">
+    <End Role="entidades" Type="Self.entidades" Multiplicity="0..1" />
+    <End Role="ingresos" Type="Self.ingresos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="entidades">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ingresos">
+        <PropertyRef Name="Id_Entidad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_login_entidades">
+    <End Role="entidades" Type="Self.entidades" Multiplicity="0..1" />
+    <End Role="login" Type="Self.login" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="entidades">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="login">
+        <PropertyRef Name="Id_Entidad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="mmsModelStoreContainer">
+    <EntitySet Name="cierre_mes" EntityType="Self.cierre_mes" Schema="mms" store:Type="Tables" />
+    <EntitySet Name="combo_categoria" EntityType="Self.combo_categoria" Schema="mms" store:Type="Tables" />
+    <EntitySet Name="combo_forma_pago" EntityType="Self.combo_forma_pago" Schema="mms" store:Type="Tables" />
+    <EntitySet Name="combo_mes" EntityType="Self.combo_mes" Schema="mms" store:Type="Tables" />
+    <EntitySet Name="combo_sub_categoria" EntityType="Self.combo_sub_categoria" Schema="mms" store:Type="Tables" />
+    <EntitySet Name="combo_tipo" EntityType="Self.combo_tipo" Schema="mms" store:Type="Tables" />
+    <EntitySet Name="egresos_mensuales" EntityType="Self.egresos_mensuales" Schema="mms" store:Type="Tables" />
+    <EntitySet Name="entidades" EntityType="Self.entidades" Schema="mms" store:Type="Tables" />
+    <EntitySet Name="ingesos_mensuales" EntityType="Self.ingesos_mensuales" Schema="mms" store:Type="Tables" />
+    <EntitySet Name="ingresos" EntityType="Self.ingresos" Schema="mms" store:Type="Tables" />
+    <EntitySet Name="log_conexiones" EntityType="Self.log_conexiones" Schema="mms" store:Type="Tables" />
+    <EntitySet Name="login" EntityType="Self.login" Schema="mms" store:Type="Tables" />
+    <EntitySet Name="mensajes" EntityType="Self.mensajes" Schema="mms" store:Type="Tables" />
+    <AssociationSet Name="egresos_mensuales_ibfk_1" Association="Self.egresos_mensuales_ibfk_1">
+      <End Role="combo_sub_categoria" EntitySet="combo_sub_categoria" />
+      <End Role="egresos_mensuales" EntitySet="egresos_mensuales" />
+    </AssociationSet>
+    <AssociationSet Name="egresos_mensuales_ibfk_2" Association="Self.egresos_mensuales_ibfk_2">
+      <End Role="entidades" EntitySet="entidades" />
+      <End Role="egresos_mensuales" EntitySet="egresos_mensuales" />
+    </AssociationSet>
+    <AssociationSet Name="FK_cierre_mes_entidades" Association="Self.FK_cierre_mes_entidades">
+      <End Role="entidades" EntitySet="entidades" />
+      <End Role="cierre_mes" EntitySet="cierre_mes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_combo_categoria_combo_tipo" Association="Self.FK_combo_categoria_combo_tipo">
+      <End Role="combo_tipo" EntitySet="combo_tipo" />
+      <End Role="combo_categoria" EntitySet="combo_categoria" />
+    </AssociationSet>
+    <AssociationSet Name="FK_combo_categoria_entidades" Association="Self.FK_combo_categoria_entidades">
+      <End Role="entidades" EntitySet="entidades" />
+      <End Role="combo_categoria" EntitySet="combo_categoria" />
+    </AssociationSet>
+    <AssociationSet Name="FK_combo_sub_categoria_combo_categoria" Association="Self.FK_combo_sub_categoria_combo_categoria">
+      <End Role="combo_categoria" EntitySet="combo_categoria" />
+      <End Role="combo_sub_categoria" EntitySet="combo_sub_categoria" />
+    </AssociationSet>
+    <AssociationSet Name="FK_combo_sub_categoria_entidades" Association="Self.FK_combo_sub_categoria_entidades">
+      <End Role="entidades" EntitySet="entidades" />
+      <End Role="combo_sub_categoria" EntitySet="combo_sub_categoria" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ingesos_mensuales_combo_sub_categoria" Association="Self.FK_ingesos_mensuales_combo_sub_categoria">
+      <End Role="combo_sub_categoria" EntitySet="combo_sub_categoria" />
+      <End Role="ingesos_mensuales" EntitySet="ingesos_mensuales" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ingesos_mensuales_entidades" Association="Self.FK_ingesos_mensuales_entidades">
+      <End Role="entidades" EntitySet="entidades" />
+      <End Role="ingesos_mensuales" EntitySet="ingesos_mensuales" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ingresos_combo_categoria" Association="Self.FK_ingresos_combo_categoria">
+      <End Role="combo_categoria" EntitySet="combo_categoria" />
+      <End Role="ingresos" EntitySet="ingresos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ingresos_combo_forma_pago" Association="Self.FK_ingresos_combo_forma_pago">
+      <End Role="combo_forma_pago" EntitySet="combo_forma_pago" />
+      <End Role="ingresos" EntitySet="ingresos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ingresos_combo_sub_categoria" Association="Self.FK_ingresos_combo_sub_categoria">
+      <End Role="combo_sub_categoria" EntitySet="combo_sub_categoria" />
+      <End Role="ingresos" EntitySet="ingresos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ingresos_combo_tipo" Association="Self.FK_ingresos_combo_tipo">
+      <End Role="combo_tipo" EntitySet="combo_tipo" />
+      <End Role="ingresos" EntitySet="ingresos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ingresos_entidades" Association="Self.FK_ingresos_entidades">
+      <End Role="entidades" EntitySet="entidades" />
+      <End Role="ingresos" EntitySet="ingresos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_login_entidades" Association="Self.FK_login_entidades">
+      <End Role="entidades" EntitySet="entidades" />
+      <End Role="login" EntitySet="login" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,92 @@
+﻿body {
+    font-family: arial;
+}
+
+table {
+    border: 1px solid #ccc;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.table-fer {
+    height: 550px;
+    overflow-x: hidden;
+}
+
+.table-EstSubCate {
+    height: 400px;
+    overflow-x: hidden;
+}
+
+
+table tr {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+table th, table td {
+    padding: 5px;
+    text-align: center;
+    font-size: 13px;
+}
+
+table th {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 600px) {
+
+    table {
+        border: 0;
+    }
+
+    .table-fer {
+        height: auto;
+    }
+
+    .table-EstSubCate {
+        height: auto;
+    }
+
+
+    table thead {
+        display: none;
+    }
+
+    table tr {
+        margin-bottom: 10px;
+        display: block;
+        border-bottom: 2px solid #ddd;
+    }
+
+
+    table th {
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+
+    table td {
+        display: block;
+        text-align: right;
+        font-size: 13px;
+        border-bottom: 1px dotted #ccc;
+    }
+
+        table td:last-child {
+            border-bottom: 0;
+        }
+
+        table td:before {
+            content: attr(data-label);
+            float: left;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+}

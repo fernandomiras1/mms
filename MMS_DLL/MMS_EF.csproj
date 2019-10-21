@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7204DACA-44D0-4802-8329-B775479FC45C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MMS_DLL</RootNamespace>
+    <AssemblyName>MMS_DLL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net40\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6, Version=6.8.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cierre_mes.cs">
+      <DependentUpon>MMS_EF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="combo_categoria.cs">
+      <DependentUpon>MMS_EF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="combo_forma_pago.cs">
+      <DependentUpon>MMS_EF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="combo_mes.cs">
+      <DependentUpon>MMS_EF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="combo_sub_categoria.cs">
+      <DependentUpon>MMS_EF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="combo_tipo.cs">
+      <DependentUpon>MMS_EF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="egresos_mensuales.cs">
+      <DependentUpon>MMS_EF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="entidades.cs">
+      <DependentUpon>MMS_EF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ingesos_mensuales.cs">
+      <DependentUpon>MMS_EF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ingresos.cs">
+      <DependentUpon>MMS_EF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <DependentUpon>MMS_EF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="log_conexiones.cs">
+      <DependentUpon>MMS_EF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="mensajes.cs">
+      <DependentUpon>MMS_EF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MMS_EF.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MMS_EF.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MMS_EF.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MMS_EF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MMS_EF.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MMS_EF.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <EntityDeploy Include="MMS_EF.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>MMS_EF.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="MMS_EF.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>MMS_EF.edmx</DependentUpon>
+      <LastGenOutput>MMS_EF.Context.cs</LastGenOutput>
+    </None>
+    <None Include="MMS_EF.edmx.diagram">
+      <DependentUpon>MMS_EF.edmx</DependentUpon>
+    </None>
+    <None Include="MMS_EF.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>MMS_EF.edmx</DependentUpon>
+      <LastGenOutput>MMS_EF.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

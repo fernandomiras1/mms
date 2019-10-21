@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="70336cd74f8c48ed8a6dce95263acde5" Name="Diagram1">
+        <EntityTypeShape EntityType="mmsModel.cierre_mes" Width="1.5" PointX="3" PointY="6" />
+        <EntityTypeShape EntityType="mmsModel.combo_categoria" Width="1.5" PointX="6" PointY="7.75" />
+        <EntityTypeShape EntityType="mmsModel.combo_forma_pago" Width="1.5" PointX="11.25" PointY="4.5" />
+        <EntityTypeShape EntityType="mmsModel.combo_mes" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="mmsModel.combo_sub_categoria" Width="1.5" PointX="8.25" PointY="7.75" />
+        <EntityTypeShape EntityType="mmsModel.combo_tipo" Width="1.5" PointX="3.75" PointY="10.375" />
+        <EntityTypeShape EntityType="mmsModel.entidades" Width="1.5" PointX="0.75" PointY="7.5" />
+        <EntityTypeShape EntityType="mmsModel.ingesos_mensuales" Width="1.5" PointX="10.5" PointY="7.625" />
+        <EntityTypeShape EntityType="mmsModel.ingresos" Width="1.5" PointX="13.5" PointY="7.375" />
+        <EntityTypeShape EntityType="mmsModel.log_conexiones" Width="1.5" PointX="2.75" PointY="0.75" />
+        <EntityTypeShape EntityType="mmsModel.login" Width="1.5" PointX="3" PointY="13.125" />
+        <EntityTypeShape EntityType="mmsModel.mensajes" Width="1.5" PointX="4.75" PointY="0.75" />
+        <AssociationConnector Association="mmsModel.FK_cierre_mes_entidades" />
+        <AssociationConnector Association="mmsModel.FK_combo_categoria_combo_tipo" />
+        <AssociationConnector Association="mmsModel.FK_combo_categoria_entidades" />
+        <AssociationConnector Association="mmsModel.FK_combo_sub_categoria_combo_categoria" />
+        <AssociationConnector Association="mmsModel.FK_ingresos_combo_categoria" />
+        <AssociationConnector Association="mmsModel.FK_ingresos_combo_forma_pago" />
+        <AssociationConnector Association="mmsModel.FK_combo_sub_categoria_entidades" />
+        <AssociationConnector Association="mmsModel.FK_ingesos_mensuales_combo_sub_categoria" />
+        <AssociationConnector Association="mmsModel.FK_ingresos_combo_sub_categoria" />
+        <AssociationConnector Association="mmsModel.FK_ingresos_combo_tipo" />
+        <AssociationConnector Association="mmsModel.FK_ingesos_mensuales_entidades" />
+        <AssociationConnector Association="mmsModel.FK_ingresos_entidades" />
+        <AssociationConnector Association="mmsModel.FK_login_entidades" />
+        <EntityTypeShape EntityType="mmsModel.egresos_mensuales" Width="1.5" PointX="10.5" PointY="11.75" />
+        <AssociationConnector Association="mmsModel.egresos_mensuales_ibfk_1" />
+        <AssociationConnector Association="mmsModel.egresos_mensuales_ibfk_2" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,509 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{E2667211-2548-49CF-881F-539A9B6D417B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>MMS</RootNamespace>
+    <AssemblyName>MMS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>MMS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>MMS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net40\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6, Version=6.8.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web.DataVisualization">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web.DynamicData">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web.Entity">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Routing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Configuration">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.EnterpriseServices">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin-2.1.0.8\css\bootstrap.min.css" />
+    <Content Include="Admin-2.1.0.8\css\metisMenu.min.css" />
+    <Content Include="Admin-2.1.0.8\css\sb-admin-2.css" />
+    <Content Include="Admin-2.1.0.8\css\timeline.css" />
+    <Content Include="Admin-2.1.0.8\font-awesome\css\font-awesome.css" />
+    <Content Include="Admin-2.1.0.8\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Admin-2.1.0.8\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Admin-2.1.0.8\js\bootstrap.min.js" />
+    <Content Include="Admin-2.1.0.8\js\jquery.min.js" />
+    <Content Include="Admin-2.1.0.8\js\metisMenu.min.js" />
+    <Content Include="Admin-2.1.0.8\js\sb-admin-2.js" />
+    <Content Include="Admin-2.1.0.8\Morris\Gruntfile.js" />
+    <Content Include="Admin-2.1.0.8\Morris\morris.css" />
+    <Content Include="Admin-2.1.0.8\Morris\morris.js" />
+    <Content Include="Admin-2.1.0.8\Morris\morris.min.js" />
+    <Content Include="Admin-2.1.0.8\Morris\raphael-min.js" />
+    <Content Include="Admin-2.1.0.8\Morris\spec\specs.html" />
+    <Content Include="Admin-2.1.0.8\Morris\spec\viz\examples.js" />
+    <Content Include="Admin-2.1.0.8\Morris\spec\viz\exemplary\area0.png" />
+    <Content Include="Admin-2.1.0.8\Morris\spec\viz\exemplary\bar0.png" />
+    <Content Include="Admin-2.1.0.8\Morris\spec\viz\exemplary\line0.png" />
+    <Content Include="Admin-2.1.0.8\Morris\spec\viz\exemplary\stacked_bar0.png" />
+    <Content Include="Admin-2.1.0.8\Morris\spec\viz\test.html" />
+    <Content Include="Admin-2.1.0.8\Morris\spec\viz\visual_specs.js" />
+    <Content Include="Admin-2.1.0.8\ng-morris-angular\angular-morris-chart.js" />
+    <Content Include="alert\lib\alertify.js" />
+    <Content Include="alert\themes\alertify.core.css" />
+    <Content Include="alert\themes\alertify.default.css" />
+    <Content Include="css\bootstrap-rtl.css" />
+    <Content Include="css\bootstrap-rtl.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\cssload.css" />
+    <Content Include="css\Generales_FMiras.css" />
+    <Content Include="css\multi-select\isteven-multi-select.css" />
+    <Content Include="css\plugins\morris.css" />
+    <Content Include="css\Responsive_Tables_CSS.css" />
+    <Content Include="css\sb-admin-rtl.css" />
+    <Content Include="css\sb-admin.css" />
+    <Content Include="css\ui-select\selectize.default.css" />
+    <Content Include="css\ui-select\select.css" />
+    <Content Include="css\ui-select\select.js" />
+    <Content Include="css\ui-select\select.min.js" />
+    <Content Include="css\ui-select\select2.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Imagenes\Dollar_48.png" />
+    <Content Include="Imagenes\Dollar_64.png" />
+    <Content Include="Imagenes\logo_login.ico" />
+    <Content Include="Imagenes\logo_login.png" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\FuncionesNF.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquery\jquery.js" />
+    <Content Include="js\jquery\jquery.min.js" />
+    <Content Include="js\plugins\flot\excanvas.min.js" />
+    <Content Include="js\plugins\flot\flot-data.js" />
+    <Content Include="js\plugins\flot\jquery.flot.js" />
+    <Content Include="js\plugins\flot\jquery.flot.pie.js" />
+    <Content Include="js\plugins\flot\jquery.flot.resize.js" />
+    <Content Include="js\plugins\flot\jquery.flot.tooltip.min.js" />
+    <Content Include="js\plugins\morris\morris.min.js" />
+    <Content Include="js\plugins\morris\raphael.js" />
+    <Content Include="js\plugins\morris\raphael.min.js" />
+    <Content Include="Paginas\CierreMes.aspx" />
+    <Content Include="Paginas\Configuraciones.aspx" />
+    <Content Include="Paginas\Estadisticas_SubCate.aspx" />
+    <Content Include="Paginas\Home.aspx" />
+    <Content Include="Paginas\Login.aspx" />
+    <Content Include="Paginas\Mensuales.aspx" />
+    <Content Include="Paginas\Mod_Home.aspx" />
+    <Content Include="Paginas\Reportes.aspx" />
+    <Content Include="Scripts\ALL\angular-animate.min.js" />
+    <Content Include="Scripts\ALL\angular-mocks.js" />
+    <Content Include="Scripts\ALL\angular-sanitize.js" />
+    <Content Include="Scripts\ALL\angular.js" />
+    <Content Include="Scripts\ALL\angular.min.js" />
+    <Content Include="Scripts\ALL\App.js" />
+    <Content Include="Scripts\Controllers\CierreMesController.js" />
+    <Content Include="Scripts\Controllers\ConfiguracionesController.js" />
+    <Content Include="Scripts\Controllers\Est_SubCateController.js" />
+    <Content Include="Scripts\Controllers\HomeController.js" />
+    <Content Include="Scripts\Controllers\MensualesController.js" />
+    <Content Include="Scripts\Controllers\ReportesController.js" />
+    <Content Include="Scripts\jquery alert\index.html" />
+    <Content Include="Scripts\jquery alert\jquery-alert.js" />
+    <Content Include="Scripts\jquery alert\jquery.alerts.css" />
+    <Content Include="Scripts\jquery-confirm\demo\index.html" />
+    <Content Include="Scripts\jquery-confirm\jquery.confirm.js" />
+    <Content Include="Scripts\jquery-confirm\jquery.confirm.min.js" />
+    <Content Include="Scripts\jquery-confirm\website\css\bootstrap.min.css" />
+    <Content Include="Scripts\jquery-confirm\website\css\font-awesome.min.css" />
+    <Content Include="Scripts\jquery-confirm\website\css\highlight.dark.css" />
+    <Content Include="Scripts\jquery-confirm\website\css\main.css" />
+    <Content Include="Scripts\jquery-confirm\website\fonts\fontawesome-webfont.svg" />
+    <Content Include="Scripts\multi-select\angularjs-dropdown-multiselect.js" />
+    <Content Include="Scripts\multi-select\isteven-multi-select.js" />
+    <Content Include="Scripts\Service\CierreMesService.js" />
+    <Content Include="Scripts\Service\ConfiguracionesService.js" />
+    <Content Include="Scripts\Service\Est_SubCateService.js" />
+    <Content Include="Scripts\Service\HomeService.js" />
+    <Content Include="Scripts\ALL\ui-bootstrap-tpls-2.5.0.min.js" />
+    <Content Include="Scripts\ALL\Utils.js" />
+    <Content Include="Scripts\Service\MensualesService.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.vb" />
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Paginas\CierreMes.aspx.designer.vb">
+      <DependentUpon>CierreMes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\CierreMes.aspx.vb">
+      <DependentUpon>CierreMes.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Configuraciones.aspx.designer.vb">
+      <DependentUpon>Configuraciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Configuraciones.aspx.vb">
+      <DependentUpon>Configuraciones.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Estadisticas_SubCate.aspx.designer.vb">
+      <DependentUpon>Estadisticas_SubCate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Estadisticas_SubCate.aspx.vb">
+      <DependentUpon>Estadisticas_SubCate.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Home.aspx.designer.vb">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Home.aspx.vb">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Mensuales.aspx.designer.vb">
+      <DependentUpon>Mensuales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Mensuales.aspx.vb">
+      <DependentUpon>Mensuales.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Mod_Home.aspx.designer.vb">
+      <DependentUpon>Mod_Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Mod_Home.aspx.vb">
+      <DependentUpon>Mod_Home.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\PaginaMaestra.Master.designer.vb">
+      <DependentUpon>PaginaMaestra.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\PaginaMaestra.Master.vb">
+      <DependentUpon>PaginaMaestra.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Reportes.aspx.designer.vb">
+      <DependentUpon>Reportes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Reportes.aspx.vb">
+      <DependentUpon>Reportes.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Imagenes\Car, citroen, vehicle icon - Icon search engine.url" />
+    <Content Include="css\ui-select\select.min.js.map" />
+    <Content Include="Admin-2.1.0.8\css\bootstrap.min.css.map" />
+    <Content Include="Admin-2.1.0.8\js\jquery.min.map" />
+    <Content Include="Admin-2.1.0.8\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="Admin-2.1.0.8\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Admin-2.1.0.8\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="Admin-2.1.0.8\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="Admin-2.1.0.8\font-awesome\less\bordered-pulled.less" />
+    <Content Include="Admin-2.1.0.8\font-awesome\less\core.less" />
+    <Content Include="Admin-2.1.0.8\font-awesome\less\extras.less" />
+    <Content Include="Admin-2.1.0.8\font-awesome\less\fixed-width.less" />
+    <Content Include="Admin-2.1.0.8\font-awesome\less\font-awesome.less" />
+    <Content Include="Admin-2.1.0.8\font-awesome\less\icons.less" />
+    <Content Include="Admin-2.1.0.8\font-awesome\less\larger.less" />
+    <Content Include="Admin-2.1.0.8\font-awesome\less\list.less" />
+    <Content Include="Admin-2.1.0.8\font-awesome\less\mixins.less" />
+    <Content Include="Admin-2.1.0.8\font-awesome\less\path.less" />
+    <Content Include="Admin-2.1.0.8\font-awesome\less\rotated-flipped.less" />
+    <Content Include="Admin-2.1.0.8\font-awesome\less\spinning.less" />
+    <Content Include="Admin-2.1.0.8\font-awesome\less\stacked.less" />
+    <Content Include="Admin-2.1.0.8\font-awesome\less\variables.less" />
+    <Content Include="Admin-2.1.0.8\font-awesome\scss\font-awesome.scss" />
+    <Content Include="Admin-2.1.0.8\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="Admin-2.1.0.8\font-awesome\scss\_core.scss" />
+    <Content Include="Admin-2.1.0.8\font-awesome\scss\_extras.scss" />
+    <Content Include="Admin-2.1.0.8\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="Admin-2.1.0.8\font-awesome\scss\_icons.scss" />
+    <Content Include="Admin-2.1.0.8\font-awesome\scss\_larger.scss" />
+    <Content Include="Admin-2.1.0.8\font-awesome\scss\_list.scss" />
+    <Content Include="Admin-2.1.0.8\font-awesome\scss\_mixins.scss" />
+    <Content Include="Admin-2.1.0.8\font-awesome\scss\_path.scss" />
+    <Content Include="Admin-2.1.0.8\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="Admin-2.1.0.8\font-awesome\scss\_spinning.scss" />
+    <Content Include="Admin-2.1.0.8\font-awesome\scss\_stacked.scss" />
+    <Content Include="Admin-2.1.0.8\font-awesome\scss\_variables.scss" />
+    <Content Include="Admin-2.1.0.8\font-awesome\.bower.json" />
+    <Content Include="Admin-2.1.0.8\font-awesome\.gitignore" />
+    <Content Include="Admin-2.1.0.8\font-awesome\.npmignore" />
+    <Content Include="Admin-2.1.0.8\font-awesome\bower.json" />
+    <Content Include="Admin-2.1.0.8\Morris\less\morris.core.less" />
+    <Content Include="Admin-2.1.0.8\Morris\lib\morris.area.coffee" />
+    <Content Include="Admin-2.1.0.8\Morris\lib\morris.bar.coffee" />
+    <Content Include="Admin-2.1.0.8\Morris\lib\morris.coffee" />
+    <Content Include="Admin-2.1.0.8\Morris\lib\morris.donut.coffee" />
+    <Content Include="Admin-2.1.0.8\Morris\lib\morris.grid.coffee" />
+    <Content Include="Admin-2.1.0.8\Morris\lib\morris.hover.coffee" />
+    <Content Include="Admin-2.1.0.8\Morris\lib\morris.line.coffee" />
+    <Content Include="Admin-2.1.0.8\Morris\spec\lib\area\area_spec.coffee" />
+    <Content Include="Admin-2.1.0.8\Morris\spec\lib\bar\bar_spec.coffee" />
+    <Content Include="Admin-2.1.0.8\Morris\spec\lib\bar\colours.coffee" />
+    <Content Include="Admin-2.1.0.8\Morris\spec\lib\commas_spec.coffee" />
+    <Content Include="Admin-2.1.0.8\Morris\spec\lib\donut\donut_spec.coffee" />
+    <Content Include="Admin-2.1.0.8\Morris\spec\lib\grid\auto_grid_lines_spec.coffee" />
+    <Content Include="Admin-2.1.0.8\Morris\spec\lib\grid\set_data_spec.coffee" />
+    <Content Include="Admin-2.1.0.8\Morris\spec\lib\grid\y_label_format_spec.coffee" />
+    <Content Include="Admin-2.1.0.8\Morris\spec\lib\hover_spec.coffee" />
+    <Content Include="Admin-2.1.0.8\Morris\spec\lib\label_series_spec.coffee" />
+    <Content Include="Admin-2.1.0.8\Morris\spec\lib\line\line_spec.coffee" />
+    <Content Include="Admin-2.1.0.8\Morris\spec\lib\pad_spec.coffee" />
+    <Content Include="Admin-2.1.0.8\Morris\spec\lib\parse_time_spec.coffee" />
+    <Content Include="Admin-2.1.0.8\Morris\spec\support\placeholder.coffee" />
+    <Content Include="Admin-2.1.0.8\Morris\spec\viz\run.sh" />
+    <Content Include="Admin-2.1.0.8\Morris\.bower.json" />
+    <Content Include="Admin-2.1.0.8\Morris\.gitignore" />
+    <Content Include="Admin-2.1.0.8\Morris\.travis.yml" />
+    <Content Include="Admin-2.1.0.8\Morris\bower.json" />
+    <Content Include="Admin-2.1.0.8\Morris\bower.travis.json" />
+    <Content Include="Admin-2.1.0.8\Morris\package.json" />
+    <Content Include="Admin-2.1.0.8\Morris\README.md" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\PublishProfiles\fer.miras.pubxml" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Paginas\PaginaMaestra.Master" />
+    <Content Include="packages.config" />
+    <Content Include="Scripts\ALL\angular.min.js.map" />
+    <Content Include="Scripts\jquery-confirm\.bower.json" />
+    <Content Include="Scripts\jquery-confirm\bower.json" />
+    <Content Include="Scripts\jquery-confirm\couscous.yml" />
+    <Content Include="Scripts\jquery-confirm\README.md" />
+    <Content Include="Scripts\jquery-confirm\website\default.twig" />
+    <Content Include="Scripts\jquery-confirm\website\fonts\fontawesome-webfont.eot" />
+    <Content Include="Scripts\jquery-confirm\website\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Scripts\jquery-confirm\website\fonts\fontawesome-webfont.woff" />
+    <Content Include="Scripts\jquery-confirm\website\fonts\FontAwesome.otf" />
+    <Content Include="Scripts\jquery alert\.bower.json" />
+    <Content Include="Scripts\jquery alert\bower.json" />
+    <Content Include="Scripts\jquery alert\README.md" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MMS_CG\MMS_CG.csproj">
+      <Project>{19c48019-3158-4070-98a1-3d49cf5f1622}</Project>
+      <Name>MMS_CG</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MMS_Utiles\MMS_Utiles.vbproj">
+      <Project>{92fd1835-e451-4442-82ae-4ff4b340e828}</Project>
+      <Name>MMS_Utiles</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>14329</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:14276/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

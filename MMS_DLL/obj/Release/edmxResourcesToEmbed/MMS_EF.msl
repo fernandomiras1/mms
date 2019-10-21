@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="mmsModelStoreContainer" CdmEntityContainer="mmsEntities">
+    <EntitySetMapping Name="cierre_mes">
+      <EntityTypeMapping TypeName="mmsModel.cierre_mes">
+        <MappingFragment StoreEntitySet="cierre_mes">
+          <ScalarProperty Name="Fecha_Proceso" ColumnName="Fecha_Proceso" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="Detalle" ColumnName="Detalle" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+          <ScalarProperty Name="Anio" ColumnName="Anio" />
+          <ScalarProperty Name="Mes" ColumnName="Mes" />
+          <ScalarProperty Name="Id_Entidad" ColumnName="Id_Entidad" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="combo_categoria">
+      <EntityTypeMapping TypeName="mmsModel.combo_categoria">
+        <MappingFragment StoreEntitySet="combo_categoria">
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Fecha_Proceso" ColumnName="Fecha_Proceso" />
+          <ScalarProperty Name="Id_Tipo" ColumnName="Id_Tipo" />
+          <ScalarProperty Name="Id_Entidad" ColumnName="Id_Entidad" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="combo_forma_pago">
+      <EntityTypeMapping TypeName="mmsModel.combo_forma_pago">
+        <MappingFragment StoreEntitySet="combo_forma_pago">
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="combo_mes">
+      <EntityTypeMapping TypeName="mmsModel.combo_mes">
+        <MappingFragment StoreEntitySet="combo_mes">
+          <ScalarProperty Name="meses" ColumnName="meses" />
+          <ScalarProperty Name="idmes" ColumnName="idmes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="combo_sub_categoria">
+      <EntityTypeMapping TypeName="mmsModel.combo_sub_categoria">
+        <MappingFragment StoreEntitySet="combo_sub_categoria">
+          <ScalarProperty Name="Pagado" ColumnName="Pagado" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Fecha_Proceso" ColumnName="Fecha_Proceso" />
+          <ScalarProperty Name="Id_Categoria" ColumnName="Id_Categoria" />
+          <ScalarProperty Name="Id_Entidad" ColumnName="Id_Entidad" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="combo_tipo">
+      <EntityTypeMapping TypeName="mmsModel.combo_tipo">
+        <MappingFragment StoreEntitySet="combo_tipo">
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="entidades">
+      <EntityTypeMapping TypeName="mmsModel.entidades">
+        <MappingFragment StoreEntitySet="entidades">
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="Clave_Temporal" ColumnName="Clave_Temporal" />
+          <ScalarProperty Name="Entidad_hash" ColumnName="Entidad_hash" />
+          <ScalarProperty Name="Entidad" ColumnName="Entidad" />
+          <ScalarProperty Name="Fecha_Creado" ColumnName="Fecha_Creado" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ingesos_mensuales">
+      <EntityTypeMapping TypeName="mmsModel.ingesos_mensuales">
+        <MappingFragment StoreEntitySet="ingesos_mensuales">
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="Recordatorio" ColumnName="Recordatorio" />
+          <ScalarProperty Name="Pagado" ColumnName="Pagado" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Detalle" ColumnName="Detalle" />
+          <ScalarProperty Name="Id_SubCategoria" ColumnName="Id_SubCategoria" />
+          <ScalarProperty Name="Fecha_Vencimiento" ColumnName="Fecha_Vencimiento" />
+          <ScalarProperty Name="Fecha_Insert" ColumnName="Fecha_Insert" />
+          <ScalarProperty Name="Id_Entidad" ColumnName="Id_Entidad" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ingresos">
+      <EntityTypeMapping TypeName="mmsModel.ingresos">
+        <MappingFragment StoreEntitySet="ingresos">
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Observación" ColumnName="Observación" />
+          <ScalarProperty Name="Id_Forma_Pago" ColumnName="Id_Forma_Pago" />
+          <ScalarProperty Name="Id_SubCategoria" ColumnName="Id_SubCategoria" />
+          <ScalarProperty Name="Id_Categoria" ColumnName="Id_Categoria" />
+          <ScalarProperty Name="Id_Tipo" ColumnName="Id_Tipo" />
+          <ScalarProperty Name="Id_Entidad" ColumnName="Id_Entidad" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="log_conexiones">
+      <EntityTypeMapping TypeName="mmsModel.log_conexiones">
+        <MappingFragment StoreEntitySet="log_conexiones">
+          <ScalarProperty Name="Version_Actual" ColumnName="Version_Actual" />
+          <ScalarProperty Name="Bloqueado" ColumnName="Bloqueado" />
+          <ScalarProperty Name="Ip_Cliente" ColumnName="Ip_Cliente" />
+          <ScalarProperty Name="Pass" ColumnName="Pass" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Entidad" ColumnName="Entidad" />
+          <ScalarProperty Name="Fecha_Ingreso" ColumnName="Fecha_Ingreso" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="login">
+      <EntityTypeMapping TypeName="mmsModel.login">
+        <MappingFragment StoreEntitySet="login">
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="Fecha_Creacion" ColumnName="Fecha_Creacion" />
+          <ScalarProperty Name="Cargo" ColumnName="Cargo" />
+          <ScalarProperty Name="Dni" ColumnName="Dni" />
+          <ScalarProperty Name="Nombre_Apellido" ColumnName="Nombre_Apellido" />
+          <ScalarProperty Name="Pass" ColumnName="Pass" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="Entidad" ColumnName="Entidad" />
+          <ScalarProperty Name="Id_Entidad" ColumnName="Id_Entidad" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mensajes">
+      <EntityTypeMapping TypeName="mmsModel.mensajes">
+        <MappingFragment StoreEntitySet="mensajes">
+          <ScalarProperty Name="Mensaje" ColumnName="Mensaje" />
+          <ScalarProperty Name="Entidad" ColumnName="Entidad" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="egresos_mensuales">
+      <EntityTypeMapping TypeName="mmsModel.egresos_mensuales">
+        <MappingFragment StoreEntitySet="egresos_mensuales">
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="Recordatorio" ColumnName="Recordatorio" />
+          <ScalarProperty Name="Pagado" ColumnName="Pagado" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Detalle" ColumnName="Detalle" />
+          <ScalarProperty Name="Id_SubCategoria" ColumnName="Id_SubCategoria" />
+          <ScalarProperty Name="Fecha_Vencimiento" ColumnName="Fecha_Vencimiento" />
+          <ScalarProperty Name="Fecha_Insert" ColumnName="Fecha_Insert" />
+          <ScalarProperty Name="Id_Entidad" ColumnName="Id_Entidad" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
