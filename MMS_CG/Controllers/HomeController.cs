@@ -23,7 +23,8 @@ namespace MMS_Clases.Controllers
             var db = new mmsEntities();
             var lista = new List<ingresos>();
             var AnioCurso = DateTime.Now.Year;
-            var MesCurso = DateTime.Now.Month;
+			var AnioAnterior = DateTime.Now.Year - 1;
+			var MesCurso = DateTime.Now.Month;
             //if (periodo == 1)
             //{
             //    //Mes en Curso
@@ -42,7 +43,8 @@ namespace MMS_Clases.Controllers
 
             lista = periodo == 1 ? db.ingresos.Where(x => x.Id_Entidad == ID_Entidad && x.Activo && x.Fecha.Month == MesCurso && x.Fecha.Year == AnioCurso).OrderByDescending(p => p.id).ToList()
                 : periodo == 2 ? db.ingresos.Where(x => x.Id_Entidad == ID_Entidad && x.Activo && x.Fecha.Year == AnioCurso).OrderByDescending(p => p.id).ToList()
-               : db.ingresos.Where(x => x.Id_Entidad == ID_Entidad && x.Activo).OrderByDescending(p => p.id).ToList();
+				: periodo == 3 ? db.ingresos.Where(x => x.Id_Entidad == ID_Entidad && x.Activo && x.Fecha.Year == AnioAnterior).OrderByDescending(p => p.id).ToList()
+			    : db.ingresos.Where(x => x.Id_Entidad == ID_Entidad && x.Activo).OrderByDescending(p => p.id).ToList();
 
             var resultado = new List<Home_Model>();
 

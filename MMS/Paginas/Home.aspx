@@ -25,13 +25,14 @@
                                     <span class="caret"></span>
                                 </button>
                                 <ul class="dropdown-menu pull-right" role="menu">
-                                    <li><a ng-click="ObtenerListado(1)">{{MesCurso_Name}}</a>
+                                    <li><a ng-click="ObtenerListado(1)"><strong>{{MesCurso_Name}}</strong></a>
                                     </li>
-                                    <li><a ng-click="ObtenerListado(2)">{{AnioCurso}}</a>
+                                    <li><a ng-click="ObtenerListado(2)"><strong>{{AnioCurso}}</strong></a>
                                     </li>
-                                    <li><a ng-click="ObtenerListado(3)">El origen de los tiempos</a>
+									 <li><a ng-click="ObtenerListado(3)"><strong>{{AnioAnterior}}</strong></a>
                                     </li>
-
+                                    <li><a ng-click="ObtenerListado(4)"><strong>El origen de los tiempos</strong></a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -281,11 +282,13 @@
                                     <span class="caret"></span>
                                 </button>
                                 <ul class="dropdown-menu pull-right" role="menu">
-                                    <li><a ng-click="ObtenerListado(1)">{{MesCurso_Name}}</a>
+                                   <li><a ng-click="ObtenerListado(1)"><strong>{{MesCurso_Name}}</strong></a>
                                     </li>
-                                    <li><a ng-click="ObtenerListado(2)">{{AnioCurso}}</a>
+                                    <li><a ng-click="ObtenerListado(2)"><strong>{{AnioCurso}}</strong></a>
                                     </li>
-                                    <li><a ng-click="ObtenerListado(3)">El origen de los tiempos</a>
+									 <li><a ng-click="ObtenerListado(3)"><strong>{{AnioAnterior}}</strong></a>
+                                    </li>
+                                    <li><a ng-click="ObtenerListado(4)"><strong>El origen de los tiempos</strong></a>
                                     </li>
 
                                 </ul>

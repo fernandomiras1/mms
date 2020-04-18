@@ -9,8 +9,9 @@
     $scope.Fecha_Desde = new Date();
     $scope.Fecha_Hasta = new Date();
 
-    $scope.MesCurso_Name = new Date().toLocaleString("es-AR", { month: "long" });
-    $scope.AnioCurso = new Date().getFullYear();
+	$scope.MesCurso_Name = angular.uppercase(new Date().toLocaleString("es-AR", { month: "long" }));
+	$scope.AnioCurso = new Date().getFullYear();
+	$scope.AnioAnterior = new Date().getFullYear() - 1;
     $scope.Titulo_Periodo = $scope.MesCurso_Name;
     $scope.detallado = false;
   
@@ -34,7 +35,7 @@
         $scope.Recordatorio_Alarmas();
     }
 
-    $scope.Init = function () {
+	$scope.Init = function () {
         $scope.ObtenerListado(1);
         $scope.ObtenerCategorias();
         $scope.Grafico_Area();
@@ -59,11 +60,17 @@
                 Nombre: $scope.AnioCurso,
                 Estado: 2
             };
-        }
+		}
+		else if (periodo == 3) {
+			$scope.Titulo_Periodo = {
+				Nombre: $scope.AnioAnterior,
+				Estado: 3
+			};
+		}
         else {
             $scope.Titulo_Periodo = {
                 Nombre: "El origen de los tiempos",
-                Estado: 3
+                Estado: 4
             };
         }
 
