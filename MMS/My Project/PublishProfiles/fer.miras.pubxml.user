@@ -10,346 +10,346 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
   </PropertyGroup>
   <ItemGroup>
     <File Include="Admin-2.1.0.8/css/bootstrap.min.css">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/css/bootstrap.min.css.map">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/css/metisMenu.min.css">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/css/sb-admin-2.css">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/css/timeline.css">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/.bower.json">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/.gitignore">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/.npmignore">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/bower.json">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/css/font-awesome.css">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/css/font-awesome.min.css">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/fonts/fontawesome-webfont.eot">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/fonts/fontawesome-webfont.svg">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/fonts/fontawesome-webfont.ttf">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/fonts/fontawesome-webfont.woff">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/fonts/FontAwesome.otf">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/less/bordered-pulled.less">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/less/core.less">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/less/extras.less">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/less/fixed-width.less">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/less/font-awesome.less">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/less/icons.less">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/less/larger.less">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/less/list.less">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/less/mixins.less">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/less/path.less">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/less/rotated-flipped.less">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/less/spinning.less">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/less/stacked.less">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/less/variables.less">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/scss/font-awesome.scss">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/scss/_bordered-pulled.scss">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/scss/_core.scss">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/scss/_extras.scss">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/scss/_fixed-width.scss">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/scss/_icons.scss">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/scss/_larger.scss">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/scss/_list.scss">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/scss/_mixins.scss">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/scss/_path.scss">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/scss/_rotated-flipped.scss">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/scss/_spinning.scss">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/scss/_stacked.scss">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/font-awesome/scss/_variables.scss">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/js/bootstrap.min.js">
-      <publishTime>03/06/2018 13:18:46</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/js/jquery.min.js">
-      <publishTime>03/06/2018 13:18:46</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/js/jquery.min.map">
-      <publishTime>03/06/2018 13:18:46</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/js/metisMenu.min.js">
-      <publishTime>03/06/2018 13:18:46</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/js/sb-admin-2.js">
-      <publishTime>03/06/2018 13:18:46</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/.bower.json">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/.gitignore">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/.travis.yml">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/bower.json">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/bower.travis.json">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/Gruntfile.js">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/less/morris.core.less">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/lib/morris.area.coffee">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/lib/morris.bar.coffee">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/lib/morris.coffee">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/lib/morris.donut.coffee">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/lib/morris.grid.coffee">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/lib/morris.hover.coffee">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/lib/morris.line.coffee">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/morris.css">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/morris.js">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/morris.min.js">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/package.json">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/raphael-min.js">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/README.md">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/spec/lib/area/area_spec.coffee">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/spec/lib/bar/bar_spec.coffee">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/spec/lib/bar/colours.coffee">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/spec/lib/commas_spec.coffee">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/spec/lib/donut/donut_spec.coffee">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/spec/lib/grid/auto_grid_lines_spec.coffee">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/spec/lib/grid/set_data_spec.coffee">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/spec/lib/grid/y_label_format_spec.coffee">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/spec/lib/hover_spec.coffee">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/spec/lib/label_series_spec.coffee">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/spec/lib/line/line_spec.coffee">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/spec/lib/pad_spec.coffee">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/spec/lib/parse_time_spec.coffee">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/spec/specs.html">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/spec/support/placeholder.coffee">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/spec/viz/examples.js">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/spec/viz/exemplary/area0.png">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/spec/viz/exemplary/bar0.png">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/spec/viz/exemplary/line0.png">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/spec/viz/exemplary/stacked_bar0.png">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/spec/viz/run.sh">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/spec/viz/test.html">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/Morris/spec/viz/visual_specs.js">
-      <publishTime>03/06/2018 13:18:45</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/ng-morris-angular/angular-morris-chart.js">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="alert/lib/alertify.js">
-      <publishTime>03/06/2018 13:18:46</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="alert/themes/alertify.core.css">
-      <publishTime>03/06/2018 13:18:46</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="alert/themes/alertify.default.css">
-      <publishTime>03/06/2018 13:18:46</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
-      <publishTime>03/06/2018 13:19:33</publishTime>
+      <publishTime>06/24/2018 18:48:25</publishTime>
     </File>
     <File Include="bin/EntityFramework.SqlServer.dll">
-      <publishTime>03/06/2018 13:19:33</publishTime>
+      <publishTime>06/24/2018 18:48:25</publishTime>
     </File>
     <File Include="bin/es/System.Web.Mvc.resources.dll">
-      <publishTime>03/06/2018 13:18:26</publishTime>
+      <publishTime>06/24/2018 18:47:30</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
-      <publishTime>03/06/2018 13:18:32</publishTime>
+      <publishTime>06/24/2018 18:47:35</publishTime>
     </File>
     <File Include="bin/MMS.dll">
-      <publishTime>03/08/2018 15:39:53</publishTime>
+      <publishTime>04/18/2020 14:11:41</publishTime>
     </File>
     <File Include="bin/MMS.pdb">
-      <publishTime>03/08/2018 15:39:53</publishTime>
+      <publishTime>04/18/2020 14:11:41</publishTime>
     </File>
     <File Include="bin/MMS.xml">
-      <publishTime>03/08/2018 15:39:53</publishTime>
+      <publishTime>04/18/2020 14:11:41</publishTime>
     </File>
     <File Include="bin/MMS_CG.dll">
-      <publishTime>03/08/2018 15:39:52</publishTime>
+      <publishTime>04/18/2020 14:11:40</publishTime>
     </File>
     <File Include="bin/MMS_CG.dll.config">
-      <publishTime>03/06/2018 13:19:03</publishTime>
+      <publishTime>06/24/2018 18:47:56</publishTime>
     </File>
     <File Include="bin/MMS_CG.pdb">
-      <publishTime>03/08/2018 15:39:52</publishTime>
+      <publishTime>04/18/2020 14:11:40</publishTime>
     </File>
     <File Include="bin/MMS_Clases.dll">
-      <publishTime>03/08/2018 15:39:52</publishTime>
+      <publishTime>04/18/2020 14:11:39</publishTime>
     </File>
     <File Include="bin/MMS_Clases.pdb">
-      <publishTime>03/08/2018 15:39:52</publishTime>
+      <publishTime>04/18/2020 14:11:39</publishTime>
     </File>
     <File Include="bin/MMS_DLL.dll">
-      <publishTime>03/08/2018 15:39:52</publishTime>
+      <publishTime>04/18/2020 14:11:39</publishTime>
     </File>
     <File Include="bin/MMS_DLL.dll.config">
-      <publishTime>03/06/2018 13:19:14</publishTime>
+      <publishTime>06/24/2018 18:48:07</publishTime>
     </File>
     <File Include="bin/MMS_DLL.pdb">
-      <publishTime>03/08/2018 15:39:52</publishTime>
+      <publishTime>04/18/2020 14:11:39</publishTime>
     </File>
     <File Include="bin/MMS_Utiles.dll">
-      <publishTime>03/08/2018 15:39:52</publishTime>
+      <publishTime>04/18/2020 14:11:39</publishTime>
     </File>
     <File Include="bin/MMS_Utiles.pdb">
-      <publishTime>03/08/2018 15:39:52</publishTime>
+      <publishTime>04/18/2020 14:11:39</publishTime>
     </File>
     <File Include="bin/MySql.Data.dll">
-      <publishTime>03/06/2018 13:18:32</publishTime>
+      <publishTime>06/24/2018 18:47:35</publishTime>
     </File>
     <File Include="bin/MySql.Data.Entity.EF6.dll">
       <publishTime>06/17/2016 17:34:38</publishTime>
@@ -361,10 +361,10 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>03/18/2010 19:31:26</publishTime>
     </File>
     <File Include="bin/System.Web.Mvc.dll">
-      <publishTime>03/06/2018 13:18:32</publishTime>
+      <publishTime>06/24/2018 18:47:35</publishTime>
     </File>
     <File Include="bin/System.Web.Razor.dll">
-      <publishTime>03/06/2018 13:18:32</publishTime>
+      <publishTime>06/24/2018 18:47:35</publishTime>
     </File>
     <File Include="bin/System.Web.Routing.dll">
       <publishTime>03/18/2010 19:31:26</publishTime>
@@ -373,310 +373,310 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>03/18/2010 19:31:26</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.Deployment.dll">
-      <publishTime>03/06/2018 13:18:32</publishTime>
+      <publishTime>06/24/2018 18:47:35</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.dll">
-      <publishTime>03/06/2018 13:18:32</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.Razor.dll">
-      <publishTime>03/06/2018 13:18:32</publishTime>
+      <publishTime>06/24/2018 18:47:35</publishTime>
     </File>
     <File Include="bin/System.Xml.Linq.dll">
       <publishTime>03/18/2010 19:31:26</publishTime>
     </File>
     <File Include="css/bootstrap-rtl.css">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="css/bootstrap-rtl.min.css">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="css/bootstrap.css">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="css/bootstrap.min.css">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="css/cssload.css">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="css/Generales_FMiras.css">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>04/18/2020 13:08:02</publishTime>
     </File>
     <File Include="css/multi-select/isteven-multi-select.css">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="css/plugins/morris.css">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="css/Responsive_Tables_CSS.css">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="css/sb-admin-rtl.css">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="css/sb-admin.css">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="css/ui-select/select.css">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="css/ui-select/select.js">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="css/ui-select/select.min.js">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="css/ui-select/select.min.js.map">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="css/ui-select/select2.css">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="css/ui-select/selectize.default.css">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.eot">
-      <publishTime>03/06/2018 13:18:46</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.svg">
-      <publishTime>03/06/2018 13:18:46</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.ttf">
-      <publishTime>03/06/2018 13:18:46</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.woff">
-      <publishTime>03/06/2018 13:18:46</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="Global.asax">
-      <publishTime>03/06/2018 13:18:46</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="Imagenes/Car, citroen, vehicle icon - Icon search engine.url">
-      <publishTime>03/06/2018 13:18:46</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="Imagenes/Dollar_48.png">
-      <publishTime>03/06/2018 13:18:46</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="Imagenes/Dollar_64.png">
-      <publishTime>03/06/2018 13:18:46</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="Imagenes/logo_login.ico">
-      <publishTime>03/06/2018 13:18:46</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="Imagenes/logo_login.png">
-      <publishTime>03/06/2018 13:18:46</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="js/bootstrap.js">
-      <publishTime>03/06/2018 13:18:46</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="js/bootstrap.min.js">
-      <publishTime>03/06/2018 13:18:46</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="js/FuncionesNF.js">
-      <publishTime>03/06/2018 13:18:46</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="js/jquery.js">
-      <publishTime>03/06/2018 13:18:46</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="js/jquery/jquery.js">
-      <publishTime>03/06/2018 13:18:46</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="js/jquery/jquery.min.js">
-      <publishTime>03/06/2018 13:18:46</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="js/plugins/flot/excanvas.min.js">
-      <publishTime>03/06/2018 13:18:46</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="js/plugins/flot/flot-data.js">
-      <publishTime>03/06/2018 13:18:46</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="js/plugins/flot/jquery.flot.js">
-      <publishTime>03/06/2018 13:18:46</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="js/plugins/flot/jquery.flot.pie.js">
-      <publishTime>03/06/2018 13:18:46</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="js/plugins/flot/jquery.flot.resize.js">
-      <publishTime>03/06/2018 13:18:46</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="js/plugins/flot/jquery.flot.tooltip.min.js">
-      <publishTime>03/06/2018 13:18:46</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="js/plugins/morris/morris.min.js">
-      <publishTime>03/06/2018 13:18:46</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="js/plugins/morris/raphael.js">
-      <publishTime>03/06/2018 13:18:46</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="js/plugins/morris/raphael.min.js">
-      <publishTime>03/06/2018 13:18:46</publishTime>
+      <publishTime>06/24/2018 18:47:37</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>03/06/2018 13:18:46</publishTime>
+      <publishTime>06/24/2018 18:47:38</publishTime>
     </File>
     <File Include="Paginas/CierreMes.aspx">
-      <publishTime>03/06/2018 13:18:25</publishTime>
+      <publishTime>06/24/2018 18:47:17</publishTime>
     </File>
     <File Include="Paginas/Configuraciones.aspx">
-      <publishTime>03/06/2018 13:18:25</publishTime>
+      <publishTime>06/24/2018 18:47:17</publishTime>
     </File>
     <File Include="Paginas/Estadisticas_SubCate.aspx">
-      <publishTime>03/06/2018 13:25:56</publishTime>
+      <publishTime>06/24/2018 18:47:17</publishTime>
     </File>
     <File Include="Paginas/Home.aspx">
-      <publishTime>03/06/2018 13:18:25</publishTime>
+      <publishTime>04/18/2020 13:43:33</publishTime>
     </File>
     <File Include="Paginas/Login.aspx">
-      <publishTime>03/06/2018 13:18:25</publishTime>
+      <publishTime>04/18/2020 12:33:13</publishTime>
     </File>
     <File Include="Paginas/Mensuales.aspx">
-      <publishTime>03/06/2018 13:18:25</publishTime>
+      <publishTime>06/24/2018 18:47:17</publishTime>
     </File>
     <File Include="Paginas/Mod_Home.aspx">
-      <publishTime>03/06/2018 13:18:25</publishTime>
+      <publishTime>06/24/2018 18:47:17</publishTime>
     </File>
     <File Include="Paginas/PaginaMaestra.Master">
-      <publishTime>03/06/2018 13:18:25</publishTime>
+      <publishTime>06/24/2018 18:47:17</publishTime>
     </File>
     <File Include="Paginas/Reportes.aspx">
-      <publishTime>03/06/2018 13:18:25</publishTime>
+      <publishTime>06/24/2018 18:47:17</publishTime>
     </File>
     <File Include="Scripts/ALL/angular-animate.min.js">
-      <publishTime>03/06/2018 13:18:43</publishTime>
+      <publishTime>06/24/2018 18:47:28</publishTime>
     </File>
     <File Include="Scripts/ALL/angular-mocks.js">
-      <publishTime>03/06/2018 13:18:43</publishTime>
+      <publishTime>06/24/2018 18:47:28</publishTime>
     </File>
     <File Include="Scripts/ALL/angular-sanitize.js">
-      <publishTime>03/06/2018 13:18:43</publishTime>
+      <publishTime>06/24/2018 18:47:29</publishTime>
     </File>
     <File Include="Scripts/ALL/angular.js">
-      <publishTime>03/06/2018 13:18:43</publishTime>
+      <publishTime>06/24/2018 18:47:29</publishTime>
     </File>
     <File Include="Scripts/ALL/angular.min.js">
-      <publishTime>03/06/2018 13:18:43</publishTime>
+      <publishTime>06/24/2018 18:47:29</publishTime>
     </File>
     <File Include="Scripts/ALL/angular.min.js.map">
-      <publishTime>03/06/2018 13:18:43</publishTime>
+      <publishTime>06/24/2018 18:47:29</publishTime>
     </File>
     <File Include="Scripts/ALL/App.js">
-      <publishTime>03/06/2018 13:18:43</publishTime>
+      <publishTime>10/21/2019 00:13:58</publishTime>
     </File>
     <File Include="Scripts/ALL/ui-bootstrap-tpls-2.5.0.min.js">
-      <publishTime>03/06/2018 13:18:43</publishTime>
+      <publishTime>06/24/2018 18:47:29</publishTime>
     </File>
     <File Include="Scripts/ALL/Utils.js">
-      <publishTime>03/06/2018 13:18:43</publishTime>
+      <publishTime>06/24/2018 18:47:28</publishTime>
     </File>
     <File Include="Scripts/Controllers/CierreMesController.js">
-      <publishTime>03/06/2018 13:40:56</publishTime>
+      <publishTime>06/24/2018 18:47:28</publishTime>
     </File>
     <File Include="Scripts/Controllers/ConfiguracionesController.js">
-      <publishTime>03/06/2018 13:18:42</publishTime>
+      <publishTime>06/24/2018 18:47:28</publishTime>
     </File>
     <File Include="Scripts/Controllers/Est_SubCateController.js">
-      <publishTime>03/06/2018 13:18:42</publishTime>
+      <publishTime>06/24/2018 18:47:28</publishTime>
     </File>
     <File Include="Scripts/Controllers/HomeController.js">
-      <publishTime>03/06/2018 13:18:42</publishTime>
+      <publishTime>04/18/2020 13:41:47</publishTime>
     </File>
     <File Include="Scripts/Controllers/MensualesController.js">
-      <publishTime>03/06/2018 13:18:42</publishTime>
+      <publishTime>06/24/2018 18:47:28</publishTime>
     </File>
     <File Include="Scripts/Controllers/ReportesController.js">
-      <publishTime>03/06/2018 13:18:42</publishTime>
+      <publishTime>06/24/2018 18:47:28</publishTime>
     </File>
     <File Include="Scripts/jquery alert/.bower.json">
-      <publishTime>03/06/2018 13:18:43</publishTime>
+      <publishTime>06/24/2018 18:47:29</publishTime>
     </File>
     <File Include="Scripts/jquery alert/bower.json">
-      <publishTime>03/06/2018 13:18:43</publishTime>
+      <publishTime>06/24/2018 18:47:29</publishTime>
     </File>
     <File Include="Scripts/jquery alert/index.html">
-      <publishTime>03/06/2018 13:18:43</publishTime>
+      <publishTime>06/24/2018 18:47:29</publishTime>
     </File>
     <File Include="Scripts/jquery alert/jquery-alert.js">
-      <publishTime>03/06/2018 13:18:43</publishTime>
+      <publishTime>06/24/2018 18:47:29</publishTime>
     </File>
     <File Include="Scripts/jquery alert/jquery.alerts.css">
-      <publishTime>03/06/2018 13:18:43</publishTime>
+      <publishTime>06/24/2018 18:47:29</publishTime>
     </File>
     <File Include="Scripts/jquery alert/README.md">
-      <publishTime>03/06/2018 13:18:43</publishTime>
+      <publishTime>06/24/2018 18:47:29</publishTime>
     </File>
     <File Include="Scripts/jquery-confirm/.bower.json">
-      <publishTime>03/06/2018 13:18:43</publishTime>
+      <publishTime>06/24/2018 18:47:29</publishTime>
     </File>
     <File Include="Scripts/jquery-confirm/bower.json">
-      <publishTime>03/06/2018 13:18:43</publishTime>
+      <publishTime>06/24/2018 18:47:29</publishTime>
     </File>
     <File Include="Scripts/jquery-confirm/couscous.yml">
-      <publishTime>03/06/2018 13:18:43</publishTime>
+      <publishTime>06/24/2018 18:47:29</publishTime>
     </File>
     <File Include="Scripts/jquery-confirm/demo/index.html">
-      <publishTime>03/06/2018 13:18:43</publishTime>
+      <publishTime>06/24/2018 18:47:29</publishTime>
     </File>
     <File Include="Scripts/jquery-confirm/jquery.confirm.js">
-      <publishTime>03/06/2018 13:18:43</publishTime>
+      <publishTime>06/24/2018 18:47:29</publishTime>
     </File>
     <File Include="Scripts/jquery-confirm/jquery.confirm.min.js">
-      <publishTime>03/06/2018 13:18:43</publishTime>
+      <publishTime>06/24/2018 18:47:29</publishTime>
     </File>
     <File Include="Scripts/jquery-confirm/README.md">
-      <publishTime>03/06/2018 13:18:43</publishTime>
+      <publishTime>06/24/2018 18:47:29</publishTime>
     </File>
     <File Include="Scripts/jquery-confirm/website/css/bootstrap.min.css">
-      <publishTime>03/06/2018 13:18:43</publishTime>
+      <publishTime>06/24/2018 18:47:29</publishTime>
     </File>
     <File Include="Scripts/jquery-confirm/website/css/font-awesome.min.css">
-      <publishTime>03/06/2018 13:18:43</publishTime>
+      <publishTime>06/24/2018 18:47:29</publishTime>
     </File>
     <File Include="Scripts/jquery-confirm/website/css/highlight.dark.css">
-      <publishTime>03/06/2018 13:18:43</publishTime>
+      <publishTime>06/24/2018 18:47:29</publishTime>
     </File>
     <File Include="Scripts/jquery-confirm/website/css/main.css">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:29</publishTime>
     </File>
     <File Include="Scripts/jquery-confirm/website/default.twig">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:29</publishTime>
     </File>
     <File Include="Scripts/jquery-confirm/website/fonts/fontawesome-webfont.eot">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:29</publishTime>
     </File>
     <File Include="Scripts/jquery-confirm/website/fonts/fontawesome-webfont.svg">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:29</publishTime>
     </File>
     <File Include="Scripts/jquery-confirm/website/fonts/fontawesome-webfont.ttf">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:29</publishTime>
     </File>
     <File Include="Scripts/jquery-confirm/website/fonts/fontawesome-webfont.woff">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:29</publishTime>
     </File>
     <File Include="Scripts/jquery-confirm/website/fonts/FontAwesome.otf">
-      <publishTime>03/06/2018 13:18:44</publishTime>
+      <publishTime>06/24/2018 18:47:29</publishTime>
     </File>
     <File Include="Scripts/multi-select/angularjs-dropdown-multiselect.js">
-      <publishTime>03/06/2018 13:18:43</publishTime>
+      <publishTime>06/24/2018 18:47:29</publishTime>
     </File>
     <File Include="Scripts/multi-select/isteven-multi-select.js">
-      <publishTime>03/06/2018 13:18:43</publishTime>
+      <publishTime>06/24/2018 18:47:29</publishTime>
     </File>
     <File Include="Scripts/Service/CierreMesService.js">
-      <publishTime>03/06/2018 13:27:45</publishTime>
+      <publishTime>06/24/2018 18:47:28</publishTime>
     </File>
     <File Include="Scripts/Service/ConfiguracionesService.js">
-      <publishTime>03/06/2018 13:18:42</publishTime>
+      <publishTime>06/24/2018 18:47:28</publishTime>
     </File>
     <File Include="Scripts/Service/Est_SubCateService.js">
-      <publishTime>03/06/2018 13:18:42</publishTime>
+      <publishTime>06/24/2018 18:47:28</publishTime>
     </File>
     <File Include="Scripts/Service/HomeService.js">
-      <publishTime>03/06/2018 13:18:42</publishTime>
+      <publishTime>06/24/2018 18:47:28</publishTime>
     </File>
     <File Include="Scripts/Service/MensualesService.js">
-      <publishTime>03/06/2018 13:18:42</publishTime>
+      <publishTime>06/24/2018 18:47:28</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>03/08/2018 15:39:54</publishTime>
+      <publishTime>04/18/2020 14:11:41</publishTime>
     </File>
   </ItemGroup>
 </Project>

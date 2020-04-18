@@ -8,6 +8,9 @@
     /*// BLACK DOWN-POINTING TRIANGLE;*/
 }
 
+a {
+	cursor:pointer;
+}
 
 .form-group input[type="checkbox"] {
     display: none;

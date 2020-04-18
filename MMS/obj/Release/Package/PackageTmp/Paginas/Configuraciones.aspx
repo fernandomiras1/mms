@@ -39,9 +39,9 @@
                     <div class="panel-body">
                         <!-- Nav tabs -->
                         <ul class="nav nav-tabs">
-                            <li class="active"><a href="#Categoriras" data-toggle="tab"><strong>Categoríras</strong></a>
+                            <li class="active"><a href="#Categoriras" data-toggle="tab"><strong>Categorías</strong></a>
                             </li>
-                            <li><a href="#Sub_Categoriras" ng-click="Open_SubCategorias()" data-toggle="tab"><strong>Sub Categoríras</strong></a>
+                            <li><a href="#Sub_Categoriras" ng-click="Open_SubCategorias()" data-toggle="tab"><strong>Sub Categorías</strong></a>
                             </li>
                         </ul>
 

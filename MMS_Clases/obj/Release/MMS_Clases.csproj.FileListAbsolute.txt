@@ -17,3 +17,13 @@ A:\Desarrollos\REPOSITORIOS\MMS_NEW\MMS_Clases\obj\Release\MMS_Clases.csprojReso
 A:\Desarrollos\REPOSITORIOS\MMS_NEW\MMS_Clases\obj\Release\MMS_Clases.csproj.CoreCompileInputs.cache
 A:\Desarrollos\REPOSITORIOS\MMS_NEW\MMS_Clases\obj\Release\MMS_Clases.dll
 A:\Desarrollos\REPOSITORIOS\MMS_NEW\MMS_Clases\obj\Release\MMS_Clases.pdb
+A:\Desarrollos\REPOSITORIOS\my-gitHub\mms_git\MMS_Clases\bin\Release\MMS_Clases.dll
+A:\Desarrollos\REPOSITORIOS\my-gitHub\mms_git\MMS_Clases\bin\Release\MMS_Clases.pdb
+A:\Desarrollos\REPOSITORIOS\my-gitHub\mms_git\MMS_Clases\bin\Release\Microsoft.CSharp.dll
+A:\Desarrollos\REPOSITORIOS\my-gitHub\mms_git\MMS_Clases\bin\Release\System.dll
+A:\Desarrollos\REPOSITORIOS\my-gitHub\mms_git\MMS_Clases\bin\Release\System.Xml.dll
+A:\Desarrollos\REPOSITORIOS\my-gitHub\mms_git\MMS_Clases\bin\Release\System.Xml.Linq.dll
+A:\Desarrollos\REPOSITORIOS\my-gitHub\mms_git\MMS_Clases\obj\Release\MMS_Clases.csprojResolveAssemblyReference.cache
+A:\Desarrollos\REPOSITORIOS\my-gitHub\mms_git\MMS_Clases\obj\Release\MMS_Clases.csproj.CoreCompileInputs.cache
+A:\Desarrollos\REPOSITORIOS\my-gitHub\mms_git\MMS_Clases\obj\Release\MMS_Clases.dll
+A:\Desarrollos\REPOSITORIOS\my-gitHub\mms_git\MMS_Clases\obj\Release\MMS_Clases.pdb
