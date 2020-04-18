@@ -108,9 +108,9 @@
         <div class="modal fade" id="div_Modal_CierreMes">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="modal-header" style="background-color: rgb(224,224,224);">
+                    <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h3 ng-show="!Objeto.Id" class="panel-title">Nuevo</h3>
+                        <h2 ng-show="!Objeto.Id" class="panel-title">Nuevo</h2>
                         <h3 ng-show="Objeto.Id" class="panel-title">Modificar</h3>
                     </div>
                     <div class="modal-body col-lg-12">

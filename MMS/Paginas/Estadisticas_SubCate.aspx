@@ -16,14 +16,14 @@
 
         <div class="row">
             <div class="col-lg-12">
-                <div class="panel panel-info">
+                <div class="panel panel-default">
                     <div class="panel-heading">
                         Estadísticas - Sub Categorías
                     </div>
                     <div class="panel-body">
 
                         <div class="panel-group" id="accordion">
-                            <div class="panel panel-success">
+                            <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
                                         <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Búsqueda</a>

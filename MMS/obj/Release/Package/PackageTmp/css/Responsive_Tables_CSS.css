@@ -12,8 +12,9 @@ table {
 }
 
 .table-fer {
-    height: 550px;
-    overflow-x: hidden;
+	height: 550px;
+	overflow-x: hidden;
+	background-color: #14141d;
 }
 
 .table-EstSubCate {
@@ -23,8 +24,8 @@ table {
 
 
 table tr {
-    border: 1px solid #ddd;
-    padding: 5px;
+	border: 1px solid #464D5C;
+	padding: 5px;
 }
 
 table th, table td {

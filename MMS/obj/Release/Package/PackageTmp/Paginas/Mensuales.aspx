@@ -111,7 +111,7 @@
 
                                                             </tbody>
                                                         </table>--%>
-                                                        <div ng-repeat="lista in ListadoIngreso | filter: text_buscar_Ingresos" class="panel panel-default bs-callout col-lg-12 col-md-12 bs-callout-success">
+                                                        <div style="background-color: #010a29;" ng-repeat="lista in ListadoIngreso | filter: text_buscar_Ingresos" class="panel panel-default bs-callout col-lg-12 col-md-12 bs-callout-success">
                                                             <div class="row">
                                                                 <div class="col-lg-6 col-md-12">
 
@@ -208,7 +208,7 @@
 
                                                             </tbody>
                                                         </table>--%>
-                                                        <div ng-repeat="listaEgreso in ListadoEgreso | filter: text_buscar_Egreso" class="panel panel-default bs-callout col-lg-12 col-md-12 bs-callout-danger">
+                                                        <div style="background-color: #010a29;" ng-repeat="listaEgreso in ListadoEgreso | filter: text_buscar_Egreso" class="panel panel-default bs-callout col-lg-12 col-md-12 bs-callout-danger">
                                                             <div class="row">
                                                                 <div class="col-lg-6 col-md-12">
 
@@ -257,7 +257,7 @@
         <div class="modal fade" id="div_Modal_Ingreso">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="modal-header" style="background-color: rgb(224,224,224);">
+                    <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                         <h3 ng-show="!Objeto.Id" class="panel-title">Nuevo</h3>
                         <h3 ng-show="Objeto.Id" class="panel-title">Modificar</h3>

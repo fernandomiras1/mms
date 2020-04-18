@@ -219,7 +219,7 @@
         <div class="modal fade" id="div_Modal_Cate" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
-                    <div class="modal-header" style="background-color: rgb(224,224,224);">
+                    <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                         <h3 class="panel-title">Modificar Categoría</h3>
                     </div>
@@ -252,7 +252,7 @@
         <div class="modal fade" id="div_Modal_Sub_Cate" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
-                    <div class="modal-header" style="background-color: rgb(224,224,224);">
+                    <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                         <h3 class="panel-title">Modificar Sub Categoría</h3>
                     </div>

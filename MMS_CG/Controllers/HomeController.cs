@@ -180,11 +180,12 @@ namespace MMS_Clases.Controllers
             try
             {
                 var db = new mmsEntities();
-                var existente = db.ingresos.FirstOrDefault(p => p.id != modelo.Id && p.Id_Categoria == modelo.Cate.Id && p.Id_SubCategoria == modelo.SubCate.Id && p.Observación == modelo.Observacion && p.Precio == modelo.Precio);
-                if (existente != null)
-                {
-                    return Json(ResultadoJson.ResultadoInCorrecto("El Registro Ingresado ya existe"));
-                }
+		
+                //var existente = db.ingresos.FirstOrDefault(p => p.id != modelo.Id && p.Id_Categoria == modelo.Cate.Id && p.Id_SubCategoria == modelo.SubCate.Id && p.Observación == modelo.Observacion && p.Precio == modelo.Precio);
+                //if (existente != null)
+                //{
+                //    return Json(ResultadoJson.ResultadoInCorrecto("El Registro Ingresado ya existe"));
+                //}
 
                 if (modelo.Id == 0)
                 {

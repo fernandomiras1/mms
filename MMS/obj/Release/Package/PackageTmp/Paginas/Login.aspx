@@ -29,7 +29,7 @@
     <link href="../alert/themes/alertify.default.css" rel="stylesheet" />
 
 </head>
-<body style="background-color: lightgray">
+<body>
 
     <div class="container">
         <div class="row">

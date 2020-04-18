@@ -10,7 +10,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
   </PropertyGroup>
   <ItemGroup>
     <File Include="Admin-2.1.0.8/css/bootstrap.min.css">
-      <publishTime>06/24/2018 18:47:36</publishTime>
+      <publishTime>04/18/2020 18:03:00</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/css/bootstrap.min.css.map">
       <publishTime>06/24/2018 18:47:36</publishTime>
@@ -19,7 +19,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/css/sb-admin-2.css">
-      <publishTime>06/24/2018 18:47:36</publishTime>
+      <publishTime>04/18/2020 16:55:37</publishTime>
     </File>
     <File Include="Admin-2.1.0.8/css/timeline.css">
       <publishTime>06/24/2018 18:47:36</publishTime>
@@ -310,22 +310,22 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>06/24/2018 18:47:35</publishTime>
     </File>
     <File Include="bin/MMS.dll">
-      <publishTime>04/18/2020 14:11:41</publishTime>
+      <publishTime>04/18/2020 18:31:00</publishTime>
     </File>
     <File Include="bin/MMS.pdb">
-      <publishTime>04/18/2020 14:11:41</publishTime>
+      <publishTime>04/18/2020 18:31:00</publishTime>
     </File>
     <File Include="bin/MMS.xml">
-      <publishTime>04/18/2020 14:11:41</publishTime>
+      <publishTime>04/18/2020 18:31:00</publishTime>
     </File>
     <File Include="bin/MMS_CG.dll">
-      <publishTime>04/18/2020 14:11:40</publishTime>
+      <publishTime>04/18/2020 18:30:59</publishTime>
     </File>
     <File Include="bin/MMS_CG.dll.config">
       <publishTime>06/24/2018 18:47:56</publishTime>
     </File>
     <File Include="bin/MMS_CG.pdb">
-      <publishTime>04/18/2020 14:11:40</publishTime>
+      <publishTime>04/18/2020 18:30:59</publishTime>
     </File>
     <File Include="bin/MMS_Clases.dll">
       <publishTime>04/18/2020 14:11:39</publishTime>
@@ -391,10 +391,10 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="css/bootstrap.css">
-      <publishTime>06/24/2018 18:47:36</publishTime>
+      <publishTime>04/18/2020 17:42:50</publishTime>
     </File>
     <File Include="css/bootstrap.min.css">
-      <publishTime>06/24/2018 18:47:36</publishTime>
+      <publishTime>04/18/2020 18:21:18</publishTime>
     </File>
     <File Include="css/cssload.css">
       <publishTime>06/24/2018 18:47:36</publishTime>
@@ -409,13 +409,13 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="css/Responsive_Tables_CSS.css">
-      <publishTime>06/24/2018 18:47:36</publishTime>
+      <publishTime>04/18/2020 18:29:01</publishTime>
     </File>
     <File Include="css/sb-admin-rtl.css">
       <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="css/sb-admin.css">
-      <publishTime>06/24/2018 18:47:36</publishTime>
+      <publishTime>04/18/2020 17:07:48</publishTime>
     </File>
     <File Include="css/ui-select/select.css">
       <publishTime>06/24/2018 18:47:36</publishTime>
@@ -430,7 +430,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>06/24/2018 18:47:36</publishTime>
     </File>
     <File Include="css/ui-select/select2.css">
-      <publishTime>06/24/2018 18:47:36</publishTime>
+      <publishTime>04/18/2020 17:14:15</publishTime>
     </File>
     <File Include="css/ui-select/selectize.default.css">
       <publishTime>06/24/2018 18:47:36</publishTime>
@@ -514,22 +514,22 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>06/24/2018 18:47:38</publishTime>
     </File>
     <File Include="Paginas/CierreMes.aspx">
-      <publishTime>06/24/2018 18:47:17</publishTime>
+      <publishTime>04/18/2020 18:00:54</publishTime>
     </File>
     <File Include="Paginas/Configuraciones.aspx">
-      <publishTime>06/24/2018 18:47:17</publishTime>
+      <publishTime>04/18/2020 18:04:02</publishTime>
     </File>
     <File Include="Paginas/Estadisticas_SubCate.aspx">
-      <publishTime>06/24/2018 18:47:17</publishTime>
+      <publishTime>04/18/2020 17:54:43</publishTime>
     </File>
     <File Include="Paginas/Home.aspx">
-      <publishTime>04/18/2020 13:43:33</publishTime>
+      <publishTime>04/18/2020 18:01:34</publishTime>
     </File>
     <File Include="Paginas/Login.aspx">
-      <publishTime>04/18/2020 12:33:13</publishTime>
+      <publishTime>04/18/2020 17:00:34</publishTime>
     </File>
     <File Include="Paginas/Mensuales.aspx">
-      <publishTime>06/24/2018 18:47:17</publishTime>
+      <publishTime>04/18/2020 18:25:21</publishTime>
     </File>
     <File Include="Paginas/Mod_Home.aspx">
       <publishTime>06/24/2018 18:47:17</publishTime>
@@ -550,7 +550,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>06/24/2018 18:47:29</publishTime>
     </File>
     <File Include="Scripts/ALL/angular.js">
-      <publishTime>06/24/2018 18:47:29</publishTime>
+      <publishTime>04/18/2020 14:40:12</publishTime>
     </File>
     <File Include="Scripts/ALL/angular.min.js">
       <publishTime>06/24/2018 18:47:29</publishTime>
