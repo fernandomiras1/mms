@@ -62,7 +62,7 @@
                         </div>
                         <div class="table-responsive" ng-show="ObtenerListadoCierreMes.length > 0">
                             <%--width="100%"id="dataTables-example"--%>
-                            <table ng-show="ObtenerListadoCierreMes.length > 0">
+                            <table style="background-color:#222;" ng-show="ObtenerListadoCierreMes.length > 0">
                                 <thead>
                                     <tr class="success">
                                         <th>Fecha</th>

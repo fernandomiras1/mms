@@ -94,8 +94,8 @@
                                                 No Hay Datos Disponibles.
                                             </div>
 
-                                            <div class="table-responsive table-fer">
-                                                <table ng-show="ListadoCate.length > 0" class="table table-sm table-striped table-bordered table-hover">
+                                            <div class="table-responsive">
+                                                <table style="background-color:#222;" ng-show="ListadoCate.length > 0" class="table table-sm table-striped table-bordered table-hover">
                                                     <thead>
                                                         <tr class="info">
                                                             <th>Tipo</th>
@@ -175,7 +175,7 @@
                                                 No Hay Datos Disponibles.
                                             </div>
 
-                                            <div class="table-responsive table-fer">
+                                            <div class="table-responsive">
                                                 <table ng-show="Listado_SubCate.length > 0" class="table table-sm table-striped table-bordered table-hover">
                                                     <thead>
                                                         <tr class="info">

@@ -41,8 +41,7 @@
         $scope.Grafico_Area();
         $scope.ObtenerTipo();
         $scope.ObtenerSubCategoria();
-        $scope.Forma_Pago();
-      
+		$scope.Forma_Pago();
     };
 
     //$scope.ObtenerListado = function (pagina) {
@@ -98,7 +97,7 @@
                 Morris.Bar(res.Lista[0].Grafico.MBar);
 
             }
-
+			
         });
     };
 
@@ -154,13 +153,16 @@
     // Obtener Combo Forma_Pago
     $scope.Forma_Pago = function () {
         HomeService.Forma_Pago().then(function (res) {
-            $scope.formaPago = res.Lista;
+			$scope.formaPago = res.Lista;
         });
     }
 
     // Btn_ Abrir POP UP - NUEVO 
     $scope.btn_Nuevo = function () {
-       $scope.Objeto = {};
+		$scope.Objeto = {};
+		if ($scope.tipos.length > 0) {
+			$scope.Objeto.Tipo = $scope.tipos.find(function (x) { return x.id == 2 });
+		}
        $scope.Objeto.Forma_Pago = $scope.formaPago.find(function (x) { return x.id == 1 });
        $scope.Objeto.Fecha = new Date();
        $('#div_Modal_Comentario').modal('show');
