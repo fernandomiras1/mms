@@ -80,7 +80,7 @@
                         <!-- /.col-lg-12 -->
                         <div class="row">
                             <div class="col-lg-6" ng-repeat="meses in listaBuscar">
-                                <div class="panel panel-primary">
+                                <div class="panel panel-primary panel-estadisticas">
                                     <div class="panel-heading">
                                         <span><strong>{{meses.Mes}}</strong></span>
                                     </div>

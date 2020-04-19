@@ -59,7 +59,10 @@ a {
     height: 29px;
 }
 
-
+.panel-estadisticas {
+	background-color: #555 !important;
+	color: black !important;
+}
 
 
 .notification-container {
@@ -125,19 +128,19 @@ a {
     }
 
 .bs-callout-success {
-    border-left-color: #5cb85c;
+    border-left-color: #137913;
 }
 
     .bs-callout-success h4 {
-        color: #5cb85c;
+        color: #137913;
     }
 
 .bs-callout-danger {
-    border-left-color: #d9534f;
+    border-left-color: #c5211c;
 }
 
     .bs-callout-danger h4 {
-        color: #d9534f;
+        color: #c5211c;
     }
 
 .bs-callout-warning {

@@ -173,17 +173,17 @@ ul.alert-dropdown {
 }
 
 .panel-green {
-    border-color: #5cb85c;
+    border-color: #137913;
 }
 
 .panel-green > .panel-heading {
-    border-color: #5cb85c;
+    border-color: #137913;
     color: #fff;
-    background-color: #5cb85c;
+    background-color: #137913;
 }
 
 .panel-green > a {
-    color: #5cb85c;
+    color: #137913;
 }
 
 .panel-green > a:hover {
@@ -191,17 +191,17 @@ ul.alert-dropdown {
 }
 
 .panel-red {
-    border-color: #d9534f;
+    border-color: #c5211c;
 }
 
 .panel-red > .panel-heading {
-    border-color: #d9534f;
+    border-color: #c5211c;
     color: #fff;
-    background-color: #d9534f;
+    background-color: #c5211c;
 }
 
 .panel-red > a {
-    color: #d9534f;
+    color: #c5211c;
 }
 
 .panel-red > a:hover {

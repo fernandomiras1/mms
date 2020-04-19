@@ -82,7 +82,7 @@
 
                                                     </div>
                                                     <%--       <input  type="checkbox" ng-model="lista.Recordatorio" disabled="disabled" />--%>
-                                                    <div class="table-fer" ng-show="ListadoIngreso.length > 0">
+                                                    <div ng-show="ListadoIngreso.length > 0">
                                                         <%--    <table ng-show="ListadoIngreso.length > 0" class="table table-sm table-striped table-bordered table-hover">
                                                             <thead>
                                                                 <tr class="info">
@@ -111,7 +111,7 @@
 
                                                             </tbody>
                                                         </table>--%>
-                                                        <div style="background-color: #010a29;" ng-repeat="lista in ListadoIngreso | filter: text_buscar_Ingresos" class="panel panel-default bs-callout col-lg-12 col-md-12 bs-callout-success">
+                                                        <div style="background-color: #222;" ng-repeat="lista in ListadoIngreso | filter: text_buscar_Ingresos" class="panel panel-default bs-callout col-lg-12 col-md-12 bs-callout-success">
                                                             <div class="row">
                                                                 <div class="col-lg-6 col-md-12">
 
@@ -179,7 +179,7 @@
                                                     </div>
 
                                                     <%--       <input  type="checkbox" ng-model="lista.Recordatorio" disabled="disabled" />--%>
-                                                    <div class="table-fer" ng-show="ListadoEgreso.length > 0">
+                                                    <div ng-show="ListadoEgreso.length > 0">
                                                         <%--  <table class="table table-sm table-striped table-bordered table-hover">
                                                             <thead>
                                                                 <tr class="info">
@@ -208,7 +208,7 @@
 
                                                             </tbody>
                                                         </table>--%>
-                                                        <div style="background-color: #010a29;" ng-repeat="listaEgreso in ListadoEgreso | filter: text_buscar_Egreso" class="panel panel-default bs-callout col-lg-12 col-md-12 bs-callout-danger">
+                                                        <div style="background-color: #222;" ng-repeat="listaEgreso in ListadoEgreso | filter: text_buscar_Egreso" class="panel panel-default bs-callout col-lg-12 col-md-12 bs-callout-danger">
                                                             <div class="row">
                                                                 <div class="col-lg-6 col-md-12">
 
