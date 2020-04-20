@@ -24,13 +24,16 @@ Public Class PaginaMaestra
         Dim Clave_Temp As String = C.Pedir_Valoreas_a_Cookie("MMS-C", "ICT")
         Dim Entidad_Hash As String = C.Pedir_Valoreas_a_Cookie("MMS-C", "IEH")
         Dim Nombre_usuario As String = C.Pedir_Valoreas_a_Cookie("MMS-C", "INA")
-        Dim Entidad_Nombre As String = C.Pedir_Valoreas_a_Cookie("MMS-C", "IE")
-        Try
+		Dim Entidad_Nombre As String = C.Pedir_Valoreas_a_Cookie("MMS-C", "IE")
+		Dim Cargo As String = C.Pedir_Valoreas_a_Cookie("MMS-C", "ITD")
+
+		Try
 
             Validar_Acceso_Por_Clave_Temporal(Clave_Temp, Entidad_Hash)
-            ' Me.nombreuser.InnerText = " " & Entidad_Nombre.ToString & " - " & Nombre_usuario.ToString
-            Me.nombreuser.InnerText = " " & Nombre_usuario.ToString
-            Dim Script_Paso As String = ""
+			' Me.nombreuser.InnerText = " " & Entidad_Nombre.ToString & " - " & Nombre_usuario.ToString
+			Me.nombreuser.InnerText = " " & Nombre_usuario.ToString
+			Me.nameCargo.InnerText = Cargo.ToString
+			Dim Script_Paso As String = ""
             Dim URL_ACTUAL As String = Request.Url.Segments(Request.Url.Segments.Count - 1)
 
             Select Case URL_ACTUAL

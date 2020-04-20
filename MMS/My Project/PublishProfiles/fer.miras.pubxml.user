@@ -310,13 +310,13 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>06/24/2018 18:47:35</publishTime>
     </File>
     <File Include="bin/MMS.dll">
-      <publishTime>04/18/2020 18:31:00</publishTime>
+      <publishTime>04/20/2020 01:51:26</publishTime>
     </File>
     <File Include="bin/MMS.pdb">
-      <publishTime>04/18/2020 18:31:00</publishTime>
+      <publishTime>04/20/2020 01:51:26</publishTime>
     </File>
     <File Include="bin/MMS.xml">
-      <publishTime>04/18/2020 18:31:00</publishTime>
+      <publishTime>04/20/2020 01:51:26</publishTime>
     </File>
     <File Include="bin/MMS_CG.dll">
       <publishTime>04/18/2020 18:30:59</publishTime>
@@ -526,7 +526,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>04/19/2020 15:14:33</publishTime>
     </File>
     <File Include="Paginas/Login.aspx">
-      <publishTime>04/18/2020 17:00:34</publishTime>
+      <publishTime>04/20/2020 01:48:33</publishTime>
     </File>
     <File Include="Paginas/Mensuales.aspx">
       <publishTime>04/19/2020 14:28:06</publishTime>
@@ -535,7 +535,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>06/24/2018 18:47:17</publishTime>
     </File>
     <File Include="Paginas/PaginaMaestra.Master">
-      <publishTime>06/24/2018 18:47:17</publishTime>
+      <publishTime>04/20/2020 01:03:53</publishTime>
     </File>
     <File Include="Paginas/Reportes.aspx">
       <publishTime>06/24/2018 18:47:17</publishTime>
@@ -577,7 +577,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>06/24/2018 18:47:28</publishTime>
     </File>
     <File Include="Scripts/Controllers/HomeController.js">
-      <publishTime>04/19/2020 15:08:51</publishTime>
+      <publishTime>04/20/2020 01:50:02</publishTime>
     </File>
     <File Include="Scripts/Controllers/MensualesController.js">
       <publishTime>06/24/2018 18:47:28</publishTime>

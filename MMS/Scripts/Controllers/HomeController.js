@@ -5,7 +5,8 @@
     $scope.ObjetoBuscar = {};
     $scope.suma_total = 0;
     $scope.suma_ingresos = 0;
-    $scope.suma_egresos = 0;
+	$scope.suma_egresos = 0;
+	$scope.name_cargo = document.getElementById('nameCargo').innerText;
     $scope.Fecha_Desde = new Date();
     $scope.Fecha_Hasta = new Date();
 
@@ -132,7 +133,7 @@
     //Obtener Tipos
     $scope.ObtenerTipo = function () {
         HomeService.ObtenerTipo().then(function (res) {
-            $scope.tipos = res.Lista;
+			$scope.tipos = res.Lista;
         });
     };
 
@@ -154,12 +155,24 @@
     $scope.Forma_Pago = function () {
         HomeService.Forma_Pago().then(function (res) {
 			$scope.formaPago = res.Lista;
+			if ($scope.name_cargo === 'openModal') {
+				if (!localStorage.getItem('showModal')) {
+					localStorage.setItem('showModal', '0');
+					$scope.btn_Nuevo();
+				}
+			}
         });
     }
 
     // Btn_ Abrir POP UP - NUEVO 
     $scope.btn_Nuevo = function () {
 		$scope.Objeto = {};
+		if (sessionStorage.getItem('showModal')) {
+			//var countModal = parseInt(sessionStorage.getItem('showModal'), 10);
+			//var coutFinal = countModal + 1;
+			//sessionStorage.setItem('showModal', coutFinal);
+			//sessionStorage.removeItem('showModal');
+		}
 		if ($scope.tipos.length > 0) {
 			$scope.Objeto.Tipo = $scope.tipos.find(function (x) { return x.id == 2 });
 		}
